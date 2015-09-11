@@ -1,0 +1,13 @@
+{
+ "name" : "FileUpload",
+ "description" : "Demo Multiple File Upload in Express",
+ "version" : "0.0.1",
+ "author" : "Sheryl",
+ "private" : true,
+ "dependencies" : {
+   "express" : "4.8.x",
+   "formidable" : "~1.0",
+   "util" : "~0.10.3"
+ }
+
+}

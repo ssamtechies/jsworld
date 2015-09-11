@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Multiple Upload</title>
+<style type="text/css">
+
+#submit,#files {
+    background-color: #ccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+}
+
+
+
+#submit:hover,#files:hover {
+    border: none;
+    background:purple;
+    box-shadow: 0px 0px 1px #777;
+}
+
+</style>
+
+
+</head>
+<body>
+<form action="/upload" method='post' enctype="multipart/form-data">
+
+Files: <input type="file" id="files" name="files" multiple><br/>
+<input type='submit' value='Save Draft' class='save_draft_button'>
+</form>
+
+</body>
+
+</html>
